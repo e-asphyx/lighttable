@@ -1,0 +1,14 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP BCP56
+D 1A Ic, 80V Vce, NPN Medium Power Transistor, SOT-223
+K NPN Transistor
+F http://cache.nxp.com/documents/data_sheet/BCP56_BCX56_BC56PA.pdf?pspll=1
+$ENDCMP
+#
+$CMP BXEN-50S-11M-3C
+D 0.5W LED
+K LED
+$ENDCMP
+#
+#End Doc Library
