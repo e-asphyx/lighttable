@@ -479,7 +479,7 @@ L Diode:BZT52Bxx D56
 U 1 1 61ADD939
 P 8200 4550
 F 0 "D56" V 8154 4630 50  0000 L CNN
-F 1 "BZT52Bxx" V 8245 4630 50  0000 L CNN
+F 1 "2.4" V 8245 4630 50  0000 L CNN
 F 2 "Diode_SMD:D_SOD-123" H 8200 4375 50  0001 C CNN
 F 3 "https://diotec.com/tl_files/diotec/files/pdf/datasheets/bzt52b2v4.pdf" H 8200 4550 50  0001 C CNN
 	1    8200 4550
@@ -765,8 +765,6 @@ Connection ~ 8700 2250
 Wire Wire Line
 	8700 2950 8700 2850
 Connection ~ 8700 2850
-Text Notes 8050 4600 2    50   ~ 0
-2.4V
 $Comp
 L Connector_Generic:Conn_01x01 J1
 U 1 1 61D9BD6C
@@ -1087,7 +1085,7 @@ Connection ~ 7250 4300
 Wire Wire Line
 	2000 1900 2000 1800
 $Comp
-L Library:BCP56 Q1
+L Lighttable:BCP56 Q1
 U 1 1 61B847FA
 P 1900 2100
 F 0 "Q1" H 2091 2146 50  0000 L CNN
@@ -1098,7 +1096,7 @@ F 3 "http://cache.nxp.com/documents/data_sheet/BCP56_BCX56_BC56PA.pdf?pspll=1" H
 	1    0    0    -1  
 $EndComp
 $Comp
-L Library:BCP56 Q4
+L Lighttable:BCP56 Q4
 U 1 1 61B89CE5
 P 3300 2100
 F 0 "Q4" H 3491 2146 50  0000 L CNN
@@ -1109,7 +1107,7 @@ F 3 "http://cache.nxp.com/documents/data_sheet/BCP56_BCX56_BC56PA.pdf?pspll=1" H
 	1    0    0    -1  
 $EndComp
 $Comp
-L Library:BCP56 Q6
+L Lighttable:BCP56 Q6
 U 1 1 61B8B288
 P 4700 2100
 F 0 "Q6" H 4891 2146 50  0000 L CNN
@@ -1120,7 +1118,7 @@ F 3 "http://cache.nxp.com/documents/data_sheet/BCP56_BCX56_BC56PA.pdf?pspll=1" H
 	1    0    0    -1  
 $EndComp
 $Comp
-L Library:BCP56 Q8
+L Lighttable:BCP56 Q8
 U 1 1 61B8CF98
 P 6100 2100
 F 0 "Q8" H 6291 2146 50  0000 L CNN
@@ -1131,7 +1129,7 @@ F 3 "http://cache.nxp.com/documents/data_sheet/BCP56_BCX56_BC56PA.pdf?pspll=1" H
 	1    0    0    -1  
 $EndComp
 $Comp
-L Library:BCP56 Q9
+L Lighttable:BCP56 Q9
 U 1 1 61B8EA14
 P 7500 2100
 F 0 "Q9" H 7691 2146 50  0000 L CNN
@@ -1142,7 +1140,7 @@ F 3 "http://cache.nxp.com/documents/data_sheet/BCP56_BCX56_BC56PA.pdf?pspll=1" H
 	1    0    0    -1  
 $EndComp
 $Comp
-L Library:BCP56 Q2
+L Lighttable:BCP56 Q2
 U 1 1 61B900A2
 P 1850 4250
 F 0 "Q2" H 2041 4296 50  0000 L CNN
@@ -1153,7 +1151,7 @@ F 3 "http://cache.nxp.com/documents/data_sheet/BCP56_BCX56_BC56PA.pdf?pspll=1" H
 	1    0    0    -1  
 $EndComp
 $Comp
-L Library:BCP56 Q3
+L Lighttable:BCP56 Q3
 U 1 1 61B91BCF
 P 3250 4250
 F 0 "Q3" H 3441 4296 50  0000 L CNN
@@ -1164,7 +1162,7 @@ F 3 "http://cache.nxp.com/documents/data_sheet/BCP56_BCX56_BC56PA.pdf?pspll=1" H
 	1    0    0    -1  
 $EndComp
 $Comp
-L Library:BCP56 Q5
+L Lighttable:BCP56 Q5
 U 1 1 61B9325E
 P 4650 4250
 F 0 "Q5" H 4841 4296 50  0000 L CNN
@@ -1175,7 +1173,7 @@ F 3 "http://cache.nxp.com/documents/data_sheet/BCP56_BCX56_BC56PA.pdf?pspll=1" H
 	1    0    0    -1  
 $EndComp
 $Comp
-L Library:BCP56 Q7
+L Lighttable:BCP56 Q7
 U 1 1 61B94A0B
 P 6050 4250
 F 0 "Q7" H 6241 4296 50  0000 L CNN

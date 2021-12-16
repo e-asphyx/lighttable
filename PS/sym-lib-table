@@ -1,3 +1,3 @@
 (sym_lib_table
-  (lib (name Library)(type Legacy)(uri ${KIPRJMOD}/Library.lib)(options "")(descr ""))
+  (lib (name Lighttable)(type Legacy)(uri ${KIPRJMOD}/../Lib/Lighttable.lib)(options "")(descr ""))
 )
