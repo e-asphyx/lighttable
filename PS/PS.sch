@@ -464,13 +464,13 @@ Vref
 Wire Wire Line
 	6600 2000 6650 2000
 $Comp
-L Transistor_BJT:BC848 Q10
+L Transistor_FET:2N7002 Q10
 U 1 1 61AD3420
 P 8950 5250
 F 0 "Q10" H 9141 5296 50  0000 L CNN
-F 1 "BC848" H 9141 5205 50  0000 L CNN
+F 1 "2N7002" H 9141 5205 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 9150 5175 50  0001 L CIN
-F 3 "http://www.infineon.com/dgdl/Infineon-BC847SERIES_BC848SERIES_BC849SERIES_BC850SERIES-DS-v01_01-en.pdf?fileId=db3a304314dca389011541d4630a1657" H 8950 5250 50  0001 L CNN
+F 3 "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF" H 8950 5250 50  0001 L CNN
 	1    8950 5250
 	1    0    0    -1  
 $EndComp
@@ -911,7 +911,7 @@ L Device:R R15
 U 1 1 61B746AA
 P 8500 5250
 F 0 "R15" V 8293 5250 50  0000 C CNN
-F 1 "10k" V 8384 5250 50  0000 C CNN
+F 1 "100" V 8384 5250 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" V 8430 5250 50  0001 C CNN
 F 3 "~" H 8500 5250 50  0001 C CNN
 	1    8500 5250
@@ -1017,7 +1017,7 @@ F 3 "~" H 6150 3700 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	1950 3900 1950 4050
+	1950 3900 1950 3950
 $Comp
 L Connector_Generic:Conn_01x01 J15
 U 1 1 61C3C222
@@ -1083,7 +1083,7 @@ Wire Wire Line
 	7250 4200 7250 4300
 Connection ~ 7250 4300
 Wire Wire Line
-	2000 1900 2000 1800
+	2000 1900 2000 1850
 $Comp
 L Lighttable:BCP56 Q1
 U 1 1 61B847FA
@@ -1184,19 +1184,19 @@ F 3 "http://cache.nxp.com/documents/data_sheet/BCP56_BCX56_BC56PA.pdf?pspll=1" H
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6150 3900 6150 4050
+	6150 3900 6150 3950
 Wire Wire Line
-	4750 3900 4750 4050
+	4750 3900 4750 3950
 Wire Wire Line
-	3350 3900 3350 4050
+	3350 3900 3350 3950
 Wire Wire Line
-	3400 1800 3400 1900
+	3400 1800 3400 1850
 Wire Wire Line
-	4800 1800 4800 1900
+	4800 1800 4800 1850
 Wire Wire Line
-	6200 1800 6200 1900
+	6200 1800 6200 1850
 Wire Wire Line
-	7600 1800 7600 1900
+	7600 1800 7600 1850
 $Comp
 L Mechanical:MountingHole H1
 U 1 1 61BDA77A
@@ -1243,4 +1243,67 @@ F 3 "" H 10200 4200 50  0001 C CNN
 	1    10200 4200
 	0    -1   -1   0   
 $EndComp
+Text Label 2050 1850 0    50   ~ 0
+C1
+Wire Wire Line
+	2050 1850 2000 1850
+Connection ~ 2000 1850
+Wire Wire Line
+	2000 1850 2000 1800
+Text Label 3450 1850 0    50   ~ 0
+C2
+Wire Wire Line
+	3450 1850 3400 1850
+Connection ~ 3400 1850
+Wire Wire Line
+	3400 1850 3400 1900
+Text Label 4850 1850 0    50   ~ 0
+C3
+Wire Wire Line
+	4850 1850 4800 1850
+Connection ~ 4800 1850
+Wire Wire Line
+	4800 1850 4800 1900
+Text Label 6250 1850 0    50   ~ 0
+C4
+Wire Wire Line
+	6250 1850 6200 1850
+Connection ~ 6200 1850
+Wire Wire Line
+	6200 1850 6200 1900
+Text Label 7650 1850 0    50   ~ 0
+C5
+Wire Wire Line
+	7650 1850 7600 1850
+Connection ~ 7600 1850
+Wire Wire Line
+	7600 1850 7600 1900
+Text Label 2000 3950 0    50   ~ 0
+C6
+Wire Wire Line
+	2000 3950 1950 3950
+Connection ~ 1950 3950
+Wire Wire Line
+	1950 3950 1950 4050
+Text Label 3400 3950 0    50   ~ 0
+C7
+Wire Wire Line
+	3400 3950 3350 3950
+Connection ~ 3350 3950
+Wire Wire Line
+	3350 3950 3350 4050
+Text Label 4800 3950 0    50   ~ 0
+C8
+Wire Wire Line
+	4800 3950 4750 3950
+Connection ~ 4750 3950
+Wire Wire Line
+	4750 3950 4750 4050
+Text Label 6200 3950 0    50   ~ 0
+C9
+Wire Wire Line
+	6200 3950 6150 3950
+Connection ~ 6150 3950
+Wire Wire Line
+	6150 3950 6150 4050
 $EndSCHEMATC
